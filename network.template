@@ -1,0 +1,9 @@
+[Match]
+Name=${dev}
+
+[Network]
+Address=fe80::${ipv6_prefix}:${id}/64
+
+[Address]
+Address=${ipv4_prefix}.${id}/32
+Peer=${ipv4_prefix}.${peer_id}/32

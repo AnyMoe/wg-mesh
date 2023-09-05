@@ -1,0 +1,14 @@
+[NetDev]
+Name=${dev}
+Kind=wireguard
+MTUBytes=${mtu}
+
+[WireGuard]
+ListenPort=${listen_port}
+PrivateKey=${private_key}
+
+[WireGuardPeer]
+PublicKey=${pubkey}
+AllowedIPs=::/0
+AllowedIPs=0.0.0.0/0
+Endpoint=${hostname}:${endpoint_port}

@@ -1,0 +1,12 @@
+[hkg]
+id = 0
+private_key = "kCJgg35Yh9YxSneDHJUs2uA+9dPxMmnpMXZ5xjW6oUE="
+ipv4 = "1.1.1.1"
+ipv6 = "[2606:4700:4700::1111]"
+
+[nrt]
+id = 1
+private_key = "iIclOPuSAeNk7810TG/2eqrdiON7jBoy5ZNYjuEHAWU="
+ipv4 = "8.8.8.8"
+ipv6 = "[2001:4860:4860::8888]"
+
